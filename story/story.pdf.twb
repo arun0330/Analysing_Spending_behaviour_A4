@@ -1,0 +1,1237 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='modern' />
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Worksheet (Wholesale-customers-data-_1_)' inline='true' name='federated.0rfi3cl1hzr3is1actfl71929028' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Wholesale-customers-data-_1_' name='excel-direct.1ndmqih0e3sov81a0c5il1vixwxj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Downloads/Wholesale-customers-data-_1_.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1ndmqih0e3sov81a0c5il1vixwxj' name='Worksheet' table='[Worksheet$]' type='table'>
+          <columns gridOrigin='A1:H441:no:A1:H441:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Channel' ordinal='0' />
+            <column datatype='integer' name='Region' ordinal='1' />
+            <column datatype='integer' name='Fresh' ordinal='2' />
+            <column datatype='integer' name='Milk' ordinal='3' />
+            <column datatype='integer' name='Grocery' ordinal='4' />
+            <column datatype='integer' name='Frozen' ordinal='5' />
+            <column datatype='integer' name='Detergents_Paper' ordinal='6' />
+            <column datatype='integer' name='Delicassen' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1ndmqih0e3sov81a0c5il1vixwxj' name='Worksheet' table='[Worksheet$]' type='table'>
+          <columns gridOrigin='A1:H441:no:A1:H441:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Channel' ordinal='0' />
+            <column datatype='integer' name='Region' ordinal='1' />
+            <column datatype='integer' name='Fresh' ordinal='2' />
+            <column datatype='integer' name='Milk' ordinal='3' />
+            <column datatype='integer' name='Grocery' ordinal='4' />
+            <column datatype='integer' name='Frozen' ordinal='5' />
+            <column datatype='integer' name='Detergents_Paper' ordinal='6' />
+            <column datatype='integer' name='Delicassen' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H441:no:A1:H441:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Channel</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Channel]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Channel</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fresh</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fresh]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Fresh</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Milk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Milk]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Milk</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grocery</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Grocery]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Grocery</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Frozen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Frozen]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Frozen</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Detergents_Paper</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Detergents_Paper]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Detergents_Paper</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delicassen</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Delicassen]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Delicassen</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Zero' datatype='integer' name='[Calculation_563231436543066115]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='0' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Channel]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Delicassen]' role='measure' type='quantitative' />
+      <column caption='Detergents Paper' datatype='integer' name='[Detergents_Paper]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Frozen]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Grocery]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Region]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Worksheet' datatype='table' name='[__tableau_internal_object_id__].[Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_563231436543066115]' derivation='Sum' name='[sum:Calculation_563231436543066115:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Delicassen]' derivation='Sum' name='[sum:Delicassen:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Detergents_Paper]' derivation='Sum' name='[sum:Detergents_Paper:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Frozen]' derivation='Sum' name='[sum:Frozen:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Grocery]' derivation='Sum' name='[sum:Grocery:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Frozen:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Calculation_563231436543066115:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Worksheet' id='Worksheet_E901FDFCA2AB40FCA913B84FD8D38BD4'>
+            <properties context=''>
+              <relation connection='excel-direct.1ndmqih0e3sov81a0c5il1vixwxj' name='Worksheet' table='[Worksheet$]' type='table'>
+                <columns gridOrigin='A1:H441:no:A1:H441:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Channel' ordinal='0' />
+                  <column datatype='integer' name='Region' ordinal='1' />
+                  <column datatype='integer' name='Fresh' ordinal='2' />
+                  <column datatype='integer' name='Milk' ordinal='3' />
+                  <column datatype='integer' name='Grocery' ordinal='4' />
+                  <column datatype='integer' name='Frozen' ordinal='5' />
+                  <column datatype='integer' name='Detergents_Paper' ordinal='6' />
+                  <column datatype='integer' name='Delicassen' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column datatype='integer' name='[Milk]' role='measure' type='quantitative' />
+            <column-instance column='[Milk]' derivation='Sum' name='[sum:Milk:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Milk:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'>Milk</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='14'><![CDATA[<[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Milk:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{659B33DE-1079-4697-8C3D-CB8FECDF8BB8}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column datatype='integer' name='[Grocery]' role='measure' type='quantitative' />
+            <column-instance column='[Grocery]' derivation='Sum' name='[sum:Grocery:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'>Grocery</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='14'><![CDATA[<[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D5CA8723-1E32-486A-B412-D9CBE3CBCA7F}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column datatype='integer' name='[Fresh]' role='measure' type='quantitative' />
+            <column-instance column='[Fresh]' derivation='Sum' name='[sum:Fresh:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Fresh:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'>Fresh</run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='14'><![CDATA[<[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Fresh:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DFB7F42E-17CB-4C59-9CB7-811B65C610E1}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column caption='Detergents Paper' datatype='integer' name='[Detergents_Paper]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Grocery]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Region]' role='dimension' type='ordinal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Detergents_Paper]' derivation='Sum' name='[sum:Detergents_Paper:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Grocery]' derivation='Sum' name='[sum:Grocery:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Polygon' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk] + [federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk])</rows>
+        <cols>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]</cols>
+      </table>
+      <simple-id uuid='{DD2F3FB6-26FB-4A1F-9741-7A853521681E}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column aggregation='Sum' datatype='integer' name='[Channel]' role='dimension' type='ordinal' />
+            <column caption='Detergents Paper' datatype='integer' name='[Detergents_Paper]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Grocery]' role='measure' type='quantitative' />
+            <column-instance column='[Channel]' derivation='None' name='[none:Channel:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Detergents_Paper]' derivation='Sum' name='[sum:Detergents_Paper:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Grocery]' derivation='Sum' name='[sum:Grocery:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.36182320117950439' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5272375345230103' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Channel:ok]</rows>
+        <cols>([federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk] + [federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk])</cols>
+      </table>
+      <simple-id uuid='{1CC1BB5A-09DE-4823-A7C9-52242BFE2E99}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column datatype='integer' name='[Milk]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Region]' role='dimension' type='ordinal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Milk]' derivation='Sum' name='[pcto:sum:Milk:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Milk]' derivation='Sum' name='[sum:Milk:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]' />
+              <wedge-size column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Milk:qk]' />
+              <size column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Milk:qk]' />
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[pcto:sum:Milk:qk]' />
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{48B41894-2E5A-496B-A81C-CE5AADB39491}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column aggregation='Sum' datatype='integer' name='[Channel]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Delicassen]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Frozen]' role='measure' type='quantitative' />
+            <column-instance column='[Channel]' derivation='None' name='[none:Channel:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Delicassen]' derivation='Sum' name='[sum:Delicassen:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Frozen]' derivation='Sum' name='[sum:Frozen:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Frozen:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.41679558157920837' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='5.2192649841308594' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Channel:ok]</rows>
+        <cols>([federated.0rfi3cl1hzr3is1actfl71929028].[sum:Frozen:qk] + [federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk])</cols>
+      </table>
+      <simple-id uuid='{D3E15931-9899-48EE-8934-23995DEAB031}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column datatype='integer' name='[Delicassen]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Region]' role='dimension' type='ordinal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Delicassen]' derivation='Sum' name='[sum:Delicassen:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='12.034278869628906' />
+                <format attr='shape' value=':filled/right-triangle' />
+                <format attr='mark-color' value='#818b91' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='6.5326151847839355' />
+                <format attr='shape' value=':filled/right-triangle' />
+                <format attr='mark-color' value='#818b91' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.38381215929985046' />
+                <format attr='shape' value=':filled/right-triangle' />
+                <format attr='mark-color' value='#f28e2b' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]</rows>
+        <cols>([federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk] + [federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk])</cols>
+      </table>
+      <simple-id uuid='{D222D9D1-8DA8-40BD-A67E-6C8E3660AB6E}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (Wholesale-customers-data-_1_)' name='federated.0rfi3cl1hzr3is1actfl71929028' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rfi3cl1hzr3is1actfl71929028'>
+            <column caption='Zero' datatype='integer' name='[Calculation_563231436543066115]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column datatype='integer' name='[Delicassen]' role='measure' type='quantitative' />
+            <column caption='Detergents Paper' datatype='integer' name='[Detergents_Paper]' role='measure' type='quantitative' />
+            <column aggregation='Sum' datatype='integer' name='[Region]' role='dimension' type='ordinal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_563231436543066115]' derivation='Sum' name='[sum:Calculation_563231436543066115:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Delicassen]' derivation='Sum' name='[sum:Delicassen:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Detergents_Paper]' derivation='Sum' name='[sum:Detergents_Paper:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]' field-type='quantitative' reverse='true' scope='cols' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Calculation_563231436543066115:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='3.5690608024597168' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' />
+              <text column='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]</rows>
+        <cols>([federated.0rfi3cl1hzr3is1actfl71929028].[sum:Detergents_Paper:qk] + ([federated.0rfi3cl1hzr3is1actfl71929028].[sum:Calculation_563231436543066115:qk] + [federated.0rfi3cl1hzr3is1actfl71929028].[sum:Delicassen:qk]))</cols>
+      </table>
+      <simple-id uuid='{A65E794C-5EC0-426F-8A25-FB0250C886C5}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Story 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='3216' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='4046' />
+            <zone h='84647' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14523'>
+              <flipboard active-id='9' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='MILK' captured-sheet='Sheet 1' id='1' />
+                  <story-point caption='GROCERY' captured-sheet='Sheet 2' id='2'>
+                    <capturedDeltas>
+                      <worksheet name='Sheet 2'>
+                        <selection-collection>
+                          <tuple-selection>
+                            <tuple-reference>
+                              <tuple-descriptor>
+                                <pane-descriptor>
+                                  <x-fields />
+                                  <y-fields />
+                                </pane-descriptor>
+                                <columns>
+                                  <field>[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Grocery:qk]</field>
+                                </columns>
+                              </tuple-descriptor>
+                              <tuple>
+                                <value>3498562</value>
+                              </tuple>
+                            </tuple-reference>
+                          </tuple-selection>
+                        </selection-collection>
+                      </worksheet>
+                    </capturedDeltas>
+                  </story-point>
+                  <story-point caption='FRESH' captured-sheet='Sheet 3' id='3' />
+                  <story-point caption='DETERGENTS PAPER, GROCERY' captured-sheet='Sheet 4' id='4' />
+                  <story-point caption='DETERGENTS PAPER, GROCERY' captured-sheet='Sheet 5' id='5' />
+                  <story-point caption='REGION' captured-sheet='Sheet 6' id='6' />
+                  <story-point caption='DELICASSEN, FROZEN' captured-sheet='Sheet 7' id='7' />
+                  <story-point caption='DELICASSEN' captured-sheet='Sheet 8' id='8' />
+                  <story-point caption='DELICASSEN, DETERGENTS PAPER' captured-sheet='Sheet 9' id='9' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{D2481DFF-4813-4357-BC1C-DEA51FE13A19}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{D593F8AC-B09A-4640-B0DE-90F7C34B36C5}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B7DA6B48-6DB2-4569-92E0-F5CFBECB9668}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{2960C401-7AFE-4A92-9E99-3F2B461E098F}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{C6262B71-B7A3-4A87-BC27-697AECCA9290}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{49708A80-E8A1-49A1-9F98-4A4B7AC1B402}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Channel:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{12687559-4C66-4A3A-BA99-975357D977DB}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]' type='color' />
+            <card pane-specification-id='0' param='[federated.0rfi3cl1hzr3is1actfl71929028].[sum:Milk:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DDBB80AE-D031-4A20-AAA7-665CF0393F80}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Channel:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{39031DC7-BE7A-47F9-8EFC-0CDB913CC073}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{99E8FC5C-D09B-436C-930C-1E0C86776DE7}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0rfi3cl1hzr3is1actfl71929028].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rfi3cl1hzr3is1actfl71929028].[none:Region:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9D2E0EBD-2D9C-4A48-98BC-D6BEF6A90E7D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Story 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAANVElEQVR4nO3dfWwb933H8TefjuRRlCiJeo7kSPbipEm8xIm7LMuSIVmBbmuQdvlj7YD9
+      1/6xreuAoiuKBim6rSiQbt3QrFgQLFjWFt2GFn1Yl27Zim1p12TeGnjJUjuGXUm2LFmyRFKi
+      JB5FHh/2hxs7D45tST+L/Ok+L0CAbRLk1yd+7j7HOx5DzWaziUhAhVs9gEgrKQASaNHX/+Xp
+      xz/LS9M5Noo53vWbH+FAZ55X1vp4+IGDm3rQc6eO8juPPs43vvKk0WFFTHtDAP7thz/iT574
+      EkPdEb79zPN874ff4XtzGe4crvPFv/4a4ZjLxx95hKce+wSrjW6aToQ//tQnef47XyZ1869x
+      x95eoMRX//5fcJ0W/Y9ENuENFehTn/wDPv2xD/PQw79FPZnm0KFDvPe9D/G5z3+RRz/zGB96
+      8CCPP/0tjhw9zR9+5lFuTK3zn8cW+O73X+bARO9PHyXFRz/xUToT0Us8nUh7uRiA+hpf/+cf
+      8eTTX+bbX/9bvvb0ExduqtTDuPEwmUyG9fUSyXSaKPC+93+Af/ybL5AY2E8s1ILpRbbp4mo6
+      kmYwvsyHfvt3SUYb3PvuhxkYSfHZP/s7Pvzr9/F7H/kYtVKB33/0Mf700z8AID1yK0s//gHv
+      /8uPt2p+kW0Jbec4wPGX/5snvvpdvvC5PzI5k8iO2VYATp98FbdvjL5MyuRMIjtmWwEQsZ0O
+      hEmgKQASaBfeBSqXy9fmCaJRarXaNXns7dBcm7Nb57rmAUgmk9fssbdDc23Obp1LFUgC7cIW
+      4PjRV+jo6We9sEizGSKSTJKIxXDjEfKrFboSYapON1SKjI2NbenJpidPEAqFiEaiLJcbDPSk
+      mZ2dZWRsiIWZHAPXDZM/N0sz5DA81MtycR0nEaOwsMLAdcPMz80w1t9PNR5lfmaOnp4e6n6F
+      /tF9pBORLS+E9p4Lms0w636I4YE+ivl5Kj4k3CSdiSjF0gau6zC/6NHfm2JkZGTLz7e5uS4u
+      r+GBNKW1Jv1dkC+HWF9bw3VTRGurRLpGWc/NUMMhGWtS3qgRioaJxxxCtQ0aqT6iNc/I3FuZ
+      68IWwPM8HMfB8zxKnkfZ8wBIuB3U/SrNepWZmRnmz+W2PGDFb3D9xF4Wz0yy4deJJztwXZeB
+      bBeet0E0GsXzPDzPY36xwFBfL81G5cJtzWqJE1Nn6MoO4LouXR1JfL9Go1Hf1oJr17nKnodX
+      KtGsVdnw60TDG1QbLimnyfKqx9LyKhMTE6wszbFaWOJsrrit57tab15e0WgYz6vQ8CucnjrD
+      8MRehgf7mF8qMHtqEicWw6/VcByHWs1nfb0EQMOvs3hugfXyRsvmurAFyA4M0d/bzUZpiHi4
+      QX69CsBacZV4Mk6D+vk1f2XrCzkeCzM9NUn/6F6Wyw1838d1XSCM6ybwfZ+BoRHCjRqOm2Ih
+      VyAUDl24LTs0hlcoEAZc16WyUSHuxKg3tncoo13n6ujqYbA3zenZBRKxCH49TjyyglepkUp1
+      kk1FmZqaItM3gtuTpLA0u63nu1pvXV51Kl6R1XKKPROjzE3+BCdcY/j6m/G9ZarVMpFQhEq1
+      SiwaIRSLARCKxtg/OszpU7Osrq7S2dm543NdOBBWKBS2v2QuYbfuPF0rQZ3L931iPw3GZmx3
+      rh09Z/nYKy+RiEWIZceYPvp/3H7zHo7Pb5CKlSnmqozfMMGZ6ROEQzFufeedOMDUyeMQChMN
+      NTjnhXFCNRKRBpEQROIpyn6DdMph7tQce/bt4+zpnxAORUh0duDGE7iZAfoyrpVztatjr7xE
+      R1cPy4UCXek41XqcDb9Ks9lgpL+HYyen6UxG6ckOkj83y9DEfkor6+zd+/b7jlt58Zuw4+8C
+      hRyXiJejI53i9NnzW51sXxY4/54uQLUJry2OSq1Jd3cnqysrNGsVQpE4DSKMjw0yMz3HyPg4
+      mc7z5yJFoud3OMv1JjfecAOLueWrfpG161ztKhRxiEVgpVAkHqvT1T9KMhJiY6PELQduP3+n
+      cJRkupuVxVkarR33be1oBcrlcmSzWfL5PL29vczPTOJmx+hy4cTxadLdPcQiEKWB1wgz3J9l
+      bSVPrlCkoyOF09HDxlqBWBiK62WuGx1mdmaWjkyG4tISya5u4tEwTqhJtLMHr7hMNpu1dq52
+      cqnllcvl6O1Os1go4XtFQvHU+eUQ7wB8IEIs7tLX6bBUajKU7bqmc22F9gHajObaHB0IE9kG
+      BUACTQGQQFMAJNAUAAk0BUACTQGQQNOH4i9hfn6e1dXVVo8hO0DXL3yTYrHIiy++2OoxZIco
+      AG/iui69vb1XvqPsCqpAEmjaCZZAUwAk0N6yDzA5OUlXl/nTVm1VLBbbZnls9VNTprXTMtmu
+      twSgq6vrbc9VD6p2WR7VahXHaY+v3mmXZbJdqkASaAqARXzfb/UIu44CYJF26P+7jQIggaYA
+      WEQVyDwFwCKqQOaZPRfof398/mc3GR2Ed/1Sq6doK4/81b+zsNauV/rZHG0BLKIKZJ4CYBFV
+      IPMUAAk0BcAiqkDmKQAWUQUyTwGQQFMALKIKZJ4CYBFVIPMUAAk0BcAiqkDmKQAWUQUyTwGQ
+      QFMALKIKZJ4CYBFVIPMUAAk0BcAiqkDmKQAWUQUyTwGQQFMALKIKZJ4CYBFVIPMUAAm0y14V
+      4vnn/pXVWoKbBl2eO77ASLJM5rqf5eD+fr757GFC6zkm3rGP0+dKvO9XHtipmQOnsbJA+fgs
+      fr2J8wuHWj3OrnLZLUA+lydfyBMJwdSJk6zVw8xOn+Tw84eZmZsh6ThMnV2iVtYXyl1L4cwg
+      8bFe8HfHpUjayWW3APfccw9rjSYbxQq/8fBDdMZ8YmFoZvdz4215qNdJpRxmFtd3at5Aqufm
+      qM4t02zWWz3KrnPZAPQMjtIDMHyJGzsufpHcDeMZs1PJG0SyI7jZEZqlUqtH2XW0E2wRvQtk
+      ngIggaYAWEQHwsxTACyiCmSeAiCBpgBYRBXIPAXAIqpA5ikAEmgKgEVUgcxTACyiCmSeAiCB
+      pgBYRBXIPAXAIqpA5ikAEmgKgEVUgcxTACyiCmSeAiCBpgBYRBXIPAXAIqpA5ikAEmgKgEVU
+      gcy77FUhNm2wH26/xehDtly0fdYR7VKB7r9jnEYk2eoxjDAbgKH+8z+7SS7X6gnazgMHx8lm
+      s60ew4j2Wb3JFakCmacAWKRdKtBuogBIoCkAFlEFMk8BsIgqkHkKgASaAmARVSDzFACLqAKZ
+      pwBIoCkAFlEFMk8BsIgqkHkKgASaAmARVSDzFACLqAKZZ/Z0aBscPgKFlau/f3cadsmpv6Y8
+      9cwR1vwrv3TGhzJ88D0Hd2CirQteAAorsLB49fePtc9G0vd9HMdp9RhMz6+wsLY7vrS7fX67
+      ckWqQOYpABJoCoBF9C6QeQqARVSBzFMAJNAUAIuoApmnAFhEFcg8BUACTQGwiCqQeQqARVSB
+      zFMAJNAUAIuoApmnAFhEFcg8BUACTQGwiCqQeQqARVSBzFMAJNAUAIuoApmnAFhEFcg8BUAC
+      zfoPxf/X95+lZ+w2nGqOQjVKcmONPYcOUTz5Mqt0cHxylptG0lSiXRy4aW+rx92iJt5zz9K8
+      5V6cbOs/FL9ZL7zwAnfffTdHDv8HmesOkJ+f4tCdt/HsPzzD4N59FNc8YuUcmYlDvGN8Z79k
+      0fotwOjoKOVymaMnT3Hm2GEe//O/YG6lRDk/w0I1jb84zXP/8yILC/OtHnXr6lWo1YiGbaxA
+      dV599QQAZ3Pr/NNXPs+TX/om1VCM0d4I5XCaslehEU4wsWfnv2HU+i1AqnuYTLNJf/9dxID7
+      f/lBvEaFnlt/EXe1wsT97yaeiBJqWHwZj0icSG9nq6fYoggPPvirFAoFfu6dd3DXz9/HB/BZ
+      zy/Qc/1tuKE4d918LyvLyyRasDq2PgDd3d0AdLzu3157qQyldnycayZ++31Uq9VWj7El/f1v
+      s2bvvfjH136PO836CiSyHQqARXQcwDwFwCI6DmCeAiCBpgBYRBXIPAXAIqpA5ikAEmgKgEVU
+      gcxTACyiCmSeAiCBpgBYRBXIPAXAIqpA5ikAEmgKgEVUgcxTACyiCmSeAiCBpgBYRBXIPAXA
+      IqpA5ikAEmgKgEVUgcxTACyiCmSe9VeF2LSfGYehTVx/Jqp1xJvdf8c4jUjyivfrz7T/ZTmC
+      GYDNyOWuzRxb4Ps+jtP6K8M9cHCcbDbb6jGM0OrNIqpA5ikAEmgKgEX0LpB5CoBFVIHMUwAk
+      0BQAi6gCmacAWEQVyDwFQAJNAbCIKpB5CoBFVIHMUwAk0BQAi6gCmacAWEQVyDwFQAIteKdD
+      v+bwESisXPl+3Wlok1N/2+V06KeeOcKa/8aXzvhQhg++52CLJtq64AagsAILi1e+X6x9NpLt
+      UoGm51dYWLP4e5dfp31+uyItoABYRO8CmacAWKRdKtBuogBIoCkAFlEFMk8BsIgqkHkKgASa
+      AmARVSDzFACLqAKZpwBIoCkAFlEFMk8BsIgqkHkKgASaAmARVSDzFACLqAKZpwBIoCkAFlEF
+      Mk8BsIgqkHkKgATa/wP6X3JI6AlBtwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
